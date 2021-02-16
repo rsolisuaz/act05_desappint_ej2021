@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cargando Scripts</title>
+<link rel="stylesheet"
+      href="css/estilos.css"
+      type="text/css"/>
+<script src="scripts/phish.js"></script>
+</head>
+<body>
+  <div>
+    <h1>Cargando Scripts</h1>
+    <fieldset>
+      <legend>Invocando Funcion desde el Boton</legend>
+      <form action="#">
+        <input type="button" value="Cuanto ganaste?" class="centrado"
+               onclick='muestraGanancias1()'>
+      </form>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Invocando Funcion desde Etiqueta <code>script</code></legend>
+      <script>muestraGanancias2()</script>
+    </fieldset>
+    <br>
+  </div>
+
+   <br/><br/><br/><br/><br/>
+  <p style="font-size:70%">Basado en código de
+  <a href="http://courses.coreservlets.com/Course-Materials/">
+  coreservlets.com J2EE tutorials (servlets, JSP, Struts, JSF, Ajax, GWT, Spring, Hibernate, JPA, 
+  &amp; Java 6 programming).</a>. Traducción de Dr. Roberto Solis Robles.
+  </p>
+</body>
+</html>
